@@ -1,21 +1,21 @@
-# jekyll-TeXt-theme-template
-[![](https://img.shields.io/badge/-Jekyll-CC0000?style=flat-square&logo=Jekyll&logoColor=fff)](https://jekyllrb.com/)
-[![GitHub](https://img.shields.io/github/license/Samarium150/jekyll-TeXt-theme-template?style=flat-square)](LICENSE)
-
-### English
-Create an static website by using Jekyll [TeXt](https://github.com/kitian616/jekyll-TeXt-theme) theme
+# mirai-console-lolicon
+[![GitHub top language](https://img.shields.io/github/languages/top/Samarium150/mirai-console-lolicon?style=flat)](https://kotlinlang.org/)
+[![Gradle CI](https://github.com/Samarium150/mirai-console-lolicon/workflows/Gradle%20CI/badge.svg?branch=master)](https://github.com/Samarium150/mirai-console-lolicon/actions?query=workflow%3A%22Gradle+CI%22)
+[![GitHub](https://img.shields.io/github/license/Samarium150/mirai-console-lolicon?style=flat)](https://github.com/Samarium150/mirai-console-lolicon/blob/master/LICENSE)
+[![GitHub all releases](https://img.shields.io/github/downloads/Samarium150/mirai-console-lolicon/total)](https://github.com/Samarium150/mirai-console-lolicon/releases/latest)
+[![visitors](https://visitor-badge.glitch.me/badge?page_id=Samarium150.mirai%2Dconsole%2Dlolicon)]()
 <br>
-This theme is created by [kitian616](https://github.com/kitian616), this template just did some cleanup of the source code
+受 [ACGPro](https://github.com/ShrBox/ACGPro) 启发而写
 <br>
-Simply click `Use this template` and your repository is deployable on Github pages
+Social preview的图片来自 [AliceSoft](https://www.alicesoft.com) 制作的游戏 [ドーナドーナ いっしょにわるいことをしよう](https://www.alicesoft.com/dohnadohna)
 <br>
-Please see the [docs](https://tianqi.name/jekyll-TeXt-theme/) of the theme to customize
-
-### 简体中文
-使用 Jekyll [TeXt](https://github.com/kitian616/jekyll-TeXt-theme) 主题模板来创建静态网站
+在群内随机发送图片(默认30s自动撤回+60s冷却)，支持关键词检索
 <br>
-该主题的作者为 [kitian616](https://github.com/kitian616), 这个模板只做了一些源码的清理
+适配 [mirai-console](https://github.com/mamoe/mirai-console) 
+[![Version](https://img.shields.io/badge/version-2.3.2-blue)](https://github.com/mamoe/mirai/releases/tag/2.3.2)
 <br>
-点击 `Use this template` 后可以直接在GitHub pages部署
+可以在 [Lolicon API](https://api.lolicon.app/#/setu) 申请apikey来增加调用额度
 <br>
-具体使用请参见主题的 [文档](https://tianqi.name/jekyll-TeXt-theme/)
+使用文档已经移到了 [Wiki](https://github.com/Samarium150/mirai-console-lolicon/wiki) 页面
+<br>
+本页面为Kotlin源文件的注释文档

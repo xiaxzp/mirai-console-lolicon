@@ -1,0 +1,18 @@
+---
+layout: articles
+titles:
+    en:       CHANGELOG
+    zh:       更新日志
+---
+<p>由工具生成的日志，一部分因为命名不规范而丢失<p>
+<ul>
+    {% for cat in site.categories %}
+        {% if cat[0] == "changelog" %}
+        {% for post in cat[1] %}
+        {{post.date | date:"%Y/%m/%d"}}
+        <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>
+        <br>
+        {% endfor %}
+        {% endif %}
+    {% endfor %}
+</ul>

@@ -1,61 +1,15 @@
 header:
   - titles:
-      en        : &EN       Articles
-      zh-Hans   : &ZH_HANS  文章
-    url: /assets/articles/articles.html
+      en: &EN Docs
+      zh: &ZH_HANS 文档
+    url: /docs/index.html
 
   - titles:
-      # @start locale config
-      en      : &EN       Archive
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      zh-Hans : &ZH_HANS  归档
-      zh      : *ZH_HANS
-      zh-CN   : *ZH_HANS
-      zh-SG   : *ZH_HANS
-      zh-Hant : &ZH_HANT  歸檔
-      zh-TW   : *ZH_HANT
-      zh-HK   : *ZH_HANT
-      ko      : &KO       아카이브
-      ko-KR   : *KO
-      fr      : &FR       Archives
-      fr-BE   : *FR
-      fr-CA   : *FR
-      fr-CH   : *FR
-      fr-FR   : *FR
-      fr-LU   : *FR
-      # @end locale config
-    url: /archive.html
+      en: &EN CHANGELOG
+      zh: &ZH_HANS 更新日志
+    url: /changelog.html
 
   - titles:
-      # @start locale config
-      en      : &EN       About
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      zh-Hans : &ZH_HANS  关于
-      zh      : *ZH_HANS
-      zh-CN   : *ZH_HANS
-      zh-SG   : *ZH_HANS
-      zh-Hant : &ZH_HANT  關於
-      zh-TW   : *ZH_HANT
-      zh-HK   : *ZH_HANT
-      ko      : &KO       소개
-      ko-KR   : *KO
-      fr      : &FR       À propos
-      fr-BE   : *FR
-      fr-CA   : *FR
-      fr-CH   : *FR
-      fr-FR   : *FR
-      fr-LU   : *FR
-      # @end locale config
-    url: /about.html
-
-articles:
-  - title: category_titles
-    children:
-      - title: category_1
-        url: /assets/articles/category_1/category_1.html
+      en: &EN GitHub
+      zh: &ZH_HANS GitHub
+    url: https://github.com/Samarium150/mirai-console-lolicon
