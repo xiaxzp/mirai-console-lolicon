@@ -18,8 +18,8 @@ theme: jekyll-text-theme # Gem-based Jekyll Themes
 ##############################
 text_skin: ocean # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: tomorrow-night-bright # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-url     : https://samarium150.github.io/mirai-console-lolicon # the base hostname & protocol for your site e.g. https://www.someone.com
-baseurl : # does not include hostname
+url     : https://samarium150.github.io # the base hostname & protocol for your site e.g. https://www.someone.com
+baseurl : /mirai-console-lolicon # does not include hostname
 title   : mirai-console-lolicon
 description: > # this means to ignore newlines until "Language & timezone"
   mirai-console-lolicon的注释文档
@@ -62,7 +62,7 @@ repository_tree: master
 ## => Paths
 ##############################
 paths:
-  root    : mirai-console-lolicon/# title link url, "/" (default)
+  root    : mirai-console-lolicon/ # title link url, "/" (default)
   home    : # home layout url, "/" (default)
   archive : # "/archive.html" (default)
   rss     : # "/feed.xml" (default)
