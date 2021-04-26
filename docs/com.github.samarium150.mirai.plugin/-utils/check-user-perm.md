@@ -1,17 +1,18 @@
 ---
-title: checkUserPerm
-layout: article
+title: checkUserPerm -
 ---
-//[mirai-console-lolicon](../../index.md)/[com.github.samarium150.mirai.plugin](../index.md)/[Utils](index.md)/[checkUserPerm](check-user-perm.md)
+//[mirai-console-lolicon](../../../index.md)/[com.github.samarium150.mirai.plugin](../index.md)/[Utils](index.md)/[checkUserPerm](check-user-perm.md)
 
 
 
+# checkUserPerm  
+[jvm]  
+Content  
+fun [checkUserPerm](check-user-perm.md)(@Nullable()user: User?): [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)  
+More info  
 
 
-Brief description  
-
-
-Check whether user is trusted <br> 检查用户是否受信任
+Check whether [user](check-user-perm.md) is trusted <br> 检查用户是否受信任
 
 
 
@@ -23,16 +24,14 @@ checking result <br> 检查结果
 
 
 ## Parameters  
-
-
-
-| Name | Summary                                   |
-| ---- | ----------------------------------------- |
-| user | <br><br>target user <br> 目标用户<br><br> |
-
-
-Content  
-fun [checkUserPerm](check-user-perm.md)(@Nullable()user: User?): [Boolean](https://kotlinlang.org/api/latest//stdlib/kotlin/-boolean/index.html)  
+  
+jvm  
+  
+| | |
+|---|---|
+| <a name="com.github.samarium150.mirai.plugin/Utils/checkUserPerm/#net.mamoe.mirai.contact.User?/PointingToDeclaration/"></a>user| <a name="com.github.samarium150.mirai.plugin/Utils/checkUserPerm/#net.mamoe.mirai.contact.User?/PointingToDeclaration/"></a><br><br>target user <br> 目标用户<br><br>|
+  
+  
 
 
 

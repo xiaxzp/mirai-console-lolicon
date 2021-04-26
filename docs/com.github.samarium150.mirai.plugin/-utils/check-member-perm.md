@@ -1,17 +1,18 @@
 ---
-title: checkMemberPerm
-layout: article
+title: checkMemberPerm -
 ---
-//[mirai-console-lolicon](../../index.md)/[com.github.samarium150.mirai.plugin](../index.md)/[Utils](index.md)/[checkMemberPerm](check-member-perm.md)
+//[mirai-console-lolicon](../../../index.md)/[com.github.samarium150.mirai.plugin](../index.md)/[Utils](index.md)/[checkMemberPerm](check-member-perm.md)
 
 
 
+# checkMemberPerm  
+[jvm]  
+Content  
+fun [checkMemberPerm](check-member-perm.md)(@Nullable()user: User?): [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)  
+More info  
 
 
-Brief description  
-
-
-Check whether user is a group owner or administrator <br> 检查用户在群里的权限
+Check whether [user](check-member-perm.md) is a group owner or administrator <br> 检查用户在群里的权限
 
 
 
@@ -23,16 +24,14 @@ checking result <br> 检查结果
 
 
 ## Parameters  
-
-
-
-| Name | Summary                                   |
-| ---- | ----------------------------------------- |
-| user | <br><br>target user <br> 目标用户<br><br> |
-
-
-Content  
-fun [checkMemberPerm](check-member-perm.md)(@Nullable()user: User?): [Boolean](https://kotlinlang.org/api/latest//stdlib/kotlin/-boolean/index.html)  
+  
+jvm  
+  
+| | |
+|---|---|
+| <a name="com.github.samarium150.mirai.plugin/Utils/checkMemberPerm/#net.mamoe.mirai.contact.User?/PointingToDeclaration/"></a>user| <a name="com.github.samarium150.mirai.plugin/Utils/checkMemberPerm/#net.mamoe.mirai.contact.User?/PointingToDeclaration/"></a><br><br>target user <br> 目标用户<br><br>|
+  
+  
 
 
 
