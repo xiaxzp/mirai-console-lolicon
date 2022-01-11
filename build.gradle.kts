@@ -13,7 +13,7 @@ plugins {
 }
 
 group = "io.github.samarium150.xzp"
-version = "0.5.0.0-beta.7"
+version = "4.2.1.xzp.1"
 
 repositories {
     mavenLocal()
