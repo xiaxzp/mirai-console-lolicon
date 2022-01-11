@@ -12,8 +12,8 @@ plugins {
     id("com.geoffgranum.gradle-conventional-changelog") version "0.3.1"
 }
 
-group = "io.github.samarium150"
-version = "5.0.0-beta.7"
+group = "io.github.samarium150.xzp"
+version = "0.5.0.0-beta.7"
 
 repositories {
     mavenLocal()
