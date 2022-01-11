@@ -129,6 +129,7 @@ object Lolicon : CompositeCommand(
                 unlock(subject)
                 return
             }
+            url = url.replace("i.pixiv.cat", PluginConfig.proxy)
             val imgInfoReceipt =
                 if (subject == null ||
                     PluginConfig.verbose && PluginConfig.messageType != PluginConfig.Type.Forward)
@@ -220,6 +221,7 @@ object Lolicon : CompositeCommand(
                 for (imageData in response.data) {
                     if (imageData.urls.isEmpty()) continue
                     val url = getUrl(imageData.urls) ?: continue
+                    url = url.replace("i.pixiv.cat", PluginConfig.proxy)
                     var stream: InputStream? = null
                     try {
                         stream = getImageInputStream(url)
@@ -248,6 +250,7 @@ object Lolicon : CompositeCommand(
                 for (imageData in response.data) {
                     if (imageData.urls.isEmpty()) continue
                     val url = getUrl(imageData.urls) ?: continue
+                    url = url.replace("i.pixiv.cat", PluginConfig.proxy)
                     var stream: InputStream? = null
                     try {
                         stream = getImageInputStream(url)
