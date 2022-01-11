@@ -124,11 +124,12 @@ object Lolicon : CompositeCommand(
                 unlock(subject)
                 return
             }
-            val url = imageData.urls[PluginConfig.size.name.lowercase()]
+            var url = imageData.urls[PluginConfig.size.name.lowercase()]
             if (url == null) {
                 unlock(subject)
                 return
             }
+            url = url.replace("i.pixiv.cat", PluginConfig.proxy)
             val imgInfoReceipt =
                 if (subject == null ||
                     PluginConfig.verbose && PluginConfig.messageType != PluginConfig.Type.Forward)
@@ -219,7 +220,8 @@ object Lolicon : CompositeCommand(
                 imageMsgBuilder.displayStrategy = CustomDisplayStrategy
                 for (imageData in response.data) {
                     if (imageData.urls.isEmpty()) continue
-                    val url = getUrl(imageData.urls) ?: continue
+                    var url = getUrl(imageData.urls) ?: continue
+                    url = url.replace("i.pixiv.cat", PluginConfig.proxy)
                     var stream: InputStream? = null
                     try {
                         stream = getImageInputStream(url)
@@ -247,7 +249,8 @@ object Lolicon : CompositeCommand(
                 val imageMsgBuilder = MessageChainBuilder()
                 for (imageData in response.data) {
                     if (imageData.urls.isEmpty()) continue
-                    val url = getUrl(imageData.urls) ?: continue
+                    var url = getUrl(imageData.urls) ?: continue
+                    url = url.replace("i.pixiv.cat", PluginConfig.proxy)
                     var stream: InputStream? = null
                     try {
                         stream = getImageInputStream(url)
